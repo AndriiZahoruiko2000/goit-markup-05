@@ -728,10 +728,6 @@ input {
   fill: #f4f4fd;
 }
 
-.modal-form_checkbox:checked + .modal-field_text .modal-field_svg {
-  opacity: 1;
-}
-
 .modal-field_link {
   color: #4d5ae5;
   text-decoration: underline;

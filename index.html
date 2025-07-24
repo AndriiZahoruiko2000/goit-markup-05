@@ -447,6 +447,7 @@
               type="text"
               name="username"
               id="username"
+              autofocus
             />
             <svg class="input-svg" width="18px" height="18px">
               <use href="./images/icons.svg#icon-person"></use>
@@ -473,9 +474,19 @@
               name="comment"
               id="comment"
               placeholder="Text input"
-              rows="5"
+              rows="6"
             ></textarea>
           </div>
+
+          <div class="modal-wrapper">
+            <input type="checkbox" class="modal-checkbox" id="terms" checked />
+            <label for="terms" class="modal-wrapper_text">
+              I accept the terms and conditions of the
+              <span class="modal-accent_text">Privacy Policy</span>
+            </label>
+          </div>
+
+          <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
     </div>

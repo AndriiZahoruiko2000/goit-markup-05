@@ -686,7 +686,7 @@ input {
 }
 
 .modal-form_field {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   margin-bottom: 24px;
 }
@@ -719,6 +719,7 @@ input {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  fill: transparent;
 }
 
 .modal-form_checkbox:checked + .modal-field_text .modal-field_checkbox {

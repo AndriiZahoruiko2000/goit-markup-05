@@ -712,12 +712,12 @@ input {
   fill: transparent;
 }
 
-.modal-form_checkbox:checked + .modal-field_checkbox {
+.modal-form_checkbox:checked + .modal-field_text .modal-field_checkbox {
   background-color: #404bbf;
   border: none;
 }
 
-.modal-form_checkbox:checked + .modal-field_checkbox {
+.modal-form_checkbox:checked + .modal-field_text .modal-field_svg {
   opacity: 1;
   fill: #f4f4fd;
 }

@@ -686,7 +686,7 @@ input {
 }
 
 .modal-form_field {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   margin-bottom: 24px;
 }
@@ -725,11 +725,11 @@ input {
 .modal-form_checkbox:checked + .modal-field_text .modal-field_checkbox {
   background-color: #404bbf;
   border: none;
+  fill: #f4f4fd;
 }
 
 .modal-form_checkbox:checked + .modal-field_text .modal-field_svg {
   opacity: 1;
-  fill: #f4f4fd;
 }
 
 .modal-field_link {

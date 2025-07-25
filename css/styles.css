@@ -555,12 +555,17 @@ input {
   background-color: transparent;
 }
 
-.footer-subscription_input::placeholder {
+.footer-subscription_input {
   padding-left: 16px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer-subscription_input::placeholder {
   color: #ffffff;
 }
 

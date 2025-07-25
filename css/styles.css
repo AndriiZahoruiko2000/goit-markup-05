@@ -493,6 +493,10 @@ input {
   width: 264px;
 }
 
+.footer-social {
+  margin-right: 80px;
+}
+
 .footer-social_text {
   font-weight: 500;
   font-size: 16px;
@@ -527,6 +531,58 @@ input {
 
 .footer-icon {
   fill: #f4f4fd;
+}
+
+.footer-subscription_form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-subscription_text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-subscription_input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+
+.footer-subscription_input::placeholder {
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.footer-subscription_btn {
+  min-width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-subscription_svg {
+  margin-left: 16px;
 }
 
 /* ------Modal------- */

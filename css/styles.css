@@ -696,9 +696,6 @@ input {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .modal-field_checkbox {
@@ -713,6 +710,7 @@ input {
   align-items: center;
   justify-content: center;
   margin-right: 8px;
+  fill: transparent;
 }
 
 .modal-field_svg {
